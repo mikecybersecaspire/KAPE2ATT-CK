@@ -11,3 +11,6 @@ The artefacts acquired by these scripts are not exhaustive, I'd encourage anyone
 ## Requirements
 * Powershell
 * Some tools for modules
+
+## Usage
+This can be run locally via Powershell, or can be distributed at scale via an EDR agent of your choice. If you don't have access to a commercial EDR product, I'd recommend https://www.rapid7.com/products/velociraptor/ or https://limacharlie.io/
