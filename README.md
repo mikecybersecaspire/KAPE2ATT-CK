@@ -2,7 +2,7 @@
 
 ## What is this project?
 
-KAPE2ATT&CK is a repository of pre-built (Powershell) KAPE acquisition scripts, each mapped to the 12 Enterprise MITRE ATTACK Techniques. These scripts are only for Windows hosts, and only make use of the existing targets in KAPE.
+KAPE2ATT&CK is a repository of pre-built (Powershell) KAPE acquisition scripts, each mapped to the 12 Enterprise MITRE ATTACK Techniques. The aim of this project is to simplify the identification of which artefacts to acquire, based on which attacker tactics you'd like to hunt for.
 
 The scripts support storing the collected artefacts locally, or in cloud. It's recommended you test these scripts in a controlled sandbox environment before adding to your production-ready forensics arsenal.
 
