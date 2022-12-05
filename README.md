@@ -20,3 +20,6 @@ This can be run locally via Powershell, or can be distributed at scale via an ED
 
 ## Extending this project
 You could scale the execution of these scripts by utilising an EDR-style agent, or a tool that allows you to run Powershell at scale; then utilise Log2Timeline/Timesketch to hunt for tactics at scale. https://github.com/google/timesketch
+
+### Scope
+As mentioned, these scripts will only be for Windows hosts... Likewise, because these scripts are limited to endpoints, you should consider utilising this project to extend your forensics arsenal and not substitute analysis techniques of other hosts/devices/entities in scope of investigation i.e. Firewall or Cloud logs. Investigating only endpoints will only ever give you a limited view.
