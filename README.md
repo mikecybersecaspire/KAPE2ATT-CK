@@ -23,3 +23,8 @@ You could scale the execution of these scripts by utilising an EDR-style agent, 
 
 ### Scope
 As mentioned, these scripts will only be for Windows hosts... Likewise, because these scripts are limited to endpoints, you should consider utilising this project to extend your forensics arsenal and not substitute analysis techniques of other hosts/devices/entities in scope of investigation i.e. Firewall or Cloud logs. Investigating only endpoints will only ever give you a limited view.
+
+## Coming soon
+
+### Grouping tactic sets by Threat Actor
+Soon, there will be a feature to collect artefacts by inputting the corresponding MITRE TA code i.e. G0018 (https://attack.mitre.org/groups/G0018) - This will then trigger KAPE2ATTACK to automatically collect the artefacts for the chinese based TA group "admin@338".
